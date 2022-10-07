@@ -25,7 +25,7 @@ Present a complete set of working tests
     - Strings can have a natural ordering - lexicographically aka "Alphabetical"
     - EG: Alpha Ant Juliet Romeo
   - Sorting is taking a list ( a one-dimensional collection of items) and putting them in their natural order.
-  
+
 
 ## Whiteboard
 
@@ -37,5 +37,3 @@ Present a complete set of working tests
 
 ## Collaborators
 - Collaborator: Tony R. , Danny C., Sarah T., David did a code review in class and I took notes.
-
-//testing test test
