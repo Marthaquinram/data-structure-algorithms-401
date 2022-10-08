@@ -17,3 +17,4 @@
 - [stack-queue-brackets](./code-challenges/stack-queue-brackets/README13.md)
 - [trees](./README.md)
 - [insertionSort](./code-challenges/insertion-sort/README26.md)
+- [merge-sort](./code-challenges/merge-sort/README27.md)
