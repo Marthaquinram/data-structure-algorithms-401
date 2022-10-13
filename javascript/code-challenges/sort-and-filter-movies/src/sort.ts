@@ -1,18 +1,16 @@
 import { Movie } from "./movie";
 
 export function sortYear(movies: Movie[]): Movie[] {
-  return movies.sort((a, b) =>
-    a.year > b.year ? 1 : b.year > a.year ? -1 : 0
+  return movies.sort((prev, curr) =>
+    prev.year > curr.year ? 1 : curr.year > prev.year ? -1 : 0
   );
-  //1988 > 1984?
 }
-
 export function sortTitle(movies: Movie[]): Movie[] {
-  const results = movies
-    .map((a) => [a.title.replace(/^The\s+/, ""), a])
-    .sort((a, b) => a.title.localeCompare(b.title));
-
-  return results;
+  let regex: RegExp = /^The\s+/;
+  return movies.sort((a: Movie, b: Movie): number =>
+    a.title.replace(regex, "").localeCompare(b.title.replace(regex, ""))
+  );
 }
-
-export function inGenre(movies: Movie[], genre: string): Movie[] {}
+export function inGenre(movies: Movie[], genre: string): Movie[] {
+  return movies.filter((m: Movie) => m.genres.includes(genre));
+}
