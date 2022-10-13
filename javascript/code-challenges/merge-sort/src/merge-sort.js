@@ -22,7 +22,6 @@ function mergeSort(arr) {
   return arr;
 }
 function merge(left, right, arr) {
-  console.log('---------MERGE CALLED----------')
   let i = 0;
   let j = 0;
   let k = 0;
@@ -32,7 +31,6 @@ function merge(left, right, arr) {
   console.log('\n');
 
   while (i < left.length && j < right.length) {
-    console.log('---------while loop running-----------');
     if (left[i] <= right[j]) {
       console.log('left[i]: ', left[i], '<=', ' right[j]: ', right[j]);
       i++;
@@ -61,3 +59,6 @@ function merge(left, right, arr) {
   return arr;
 }
 mergeSort(inputArray);
+
+// console.log('---------MERGE CALLED----------')
+// console.log('---------while loop running-----------');
