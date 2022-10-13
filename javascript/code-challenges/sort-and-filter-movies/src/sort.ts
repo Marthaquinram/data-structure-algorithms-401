@@ -11,6 +11,7 @@ export function sortTitle(movies: Movie[]): Movie[] {
     a.title.replace(regex, "").localeCompare(b.title.replace(regex, ""))
   );
 }
+
 export function inGenre(movies: Movie[], genre: string): Movie[] {
   return movies.filter((m: Movie) => m.genres.includes(genre));
 }

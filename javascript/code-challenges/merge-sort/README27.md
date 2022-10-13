@@ -35,4 +35,4 @@ Present a complete set of working tests
 
 ## Collaborators
 
-- Collaborator:
+- Collaborator: TOny R., Danny C.
