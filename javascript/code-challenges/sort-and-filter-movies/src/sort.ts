@@ -1,12 +1,10 @@
 import { Movie } from "./movie";
 
 export function sortYear(movies: Movie[]): Movie[] {
-  return movies.sort((a, b) =>
-    a.year > b.year ? 1 : b.year > a.year ? -1 : 0
+  return movies.sort((prev, curr) =>
+    prev.year > curr.year ? 1 : curr.year > prev.year ? -1 : 0
   );
-  //1988 > 1984?
 }
-
 export function sortTitle(movies: Movie[]): Movie[] {
   let regex: RegExp = /^The\s+/;
   return movies.sort((a: Movie, b: Movie): number =>
