@@ -21,13 +21,10 @@ Provide a visual step through for each of the sample arrays based on the provide
 Convert the pseudo-code into working code in your language
 Present a complete set of working tests
 
-## Approach & Efficiency
-
--
-
 ## Whiteboard
 
-![CC27]()
+- working on this
+  ![CC28]()
 
 ## Starting up
 
@@ -35,4 +32,4 @@ Present a complete set of working tests
 
 ## Collaborators
 
-- Collaborator:
+- Collaborator: Tony R. , Danny C., and David
