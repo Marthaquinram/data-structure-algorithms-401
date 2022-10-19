@@ -1,4 +1,4 @@
-# Merge Sort
+# Sort and Filter Movies
 
 ## Challenge 28
 
@@ -28,7 +28,7 @@ Present a complete set of working tests
 
 ## Starting up
 
-- To run the test, do npm test merge-sort.test.js
+- To run the test, do npm test sort-and-filter-movies.test.js
 
 ## Collaborators
 
