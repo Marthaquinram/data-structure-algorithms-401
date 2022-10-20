@@ -18,3 +18,4 @@
 - [trees](./README.md)
 - [insertionSort](./code-challenges/insertion-sort/README26.md)
 - [merge-sort](./code-challenges/merge-sort/README27.md)
+- [sort-and-filter-movies](./code-challenges/sort-and-filter-movies/README28.md)
