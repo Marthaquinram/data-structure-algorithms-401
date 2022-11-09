@@ -90,11 +90,11 @@ let hashMap = new HashMap(7);
 
 // push/set things to our map
 // console.log('size: ', hashMap.length);
-hashMap.set('Joe', 'Regalado');
-hashMap.set('John', 'Smith');
-hashMap.set('Tony', 'Second');
-hashMap.set('Tony', 'Third');
-hashMap.set('Joe', 'Smith');
+hashMap.set('Sam', 'Dehart');
+hashMap.set('Bamby', 'Deer');
+hashMap.set('Hector', 'Bellerin');
+hashMap.set('Hector', 'Ramirez');
+hashMap.set('Rose', 'Jill');
 console.log(hashMap.keys());
 
 // return all values at given index with input
