@@ -23,8 +23,8 @@ Implement a Hashtable Class with the following methods:
 
 ## Whiteboard
 
-- working on this
-  ![CC30]()
+- CC30
+  ![CC30](./cc30.png)
 
 ## Approach & Efficiency
 
@@ -36,4 +36,4 @@ Implement a Hashtable Class with the following methods:
 
 ## Collaborators
 
-- Collaborator: Tony R.
+- Tony R.
