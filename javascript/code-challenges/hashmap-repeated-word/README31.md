@@ -15,12 +15,12 @@
 
 ## Whiteboard
 
-![CC31]()
+![CC31](./CC31.png)
 
 ## Starting up
 
-- To run the test, do npm test
+- To run the test, do npm test hashmapRepeated.test.js
 
 ## Collaborators
 
-- Collaborator:
+- Collaborator: Tony R. Danny C. Youtuber - codeSTACKr
