@@ -26,9 +26,9 @@ Implement a Hashtable Class with the following methods:
 - CC30
   ![CC30](./cc30.png)
 
-## Approach & Efficiency
+## PR
 
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+- <https://github.com/Marthaquinram/data-structure-algorithms-401/pull/10>
 
 ## Starting up
 
