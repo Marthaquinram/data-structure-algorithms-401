@@ -1,3 +1,28 @@
+
+class Graph {
+  value;
+  constructor() {
+    // this.value = {};
+  }
+  addNode(value) {
+    // this.value[value] = [];
+  }
+  addEdge() {
+
+  }
+  getNode() {
+
+  }
+  getNeighbors() {
+
+  }
+  size() {
+
+  }
+
+}
+
+
 // function breadthFirst<NV, EV>(graph: Graph<NV, EV>, start: Node<NV, EV>): NV[] {
 //   const q = [start];
 //   const visited = new Set < Node < NV, EV>> ();
@@ -13,3 +38,13 @@
 //   }
 //   return traversal;
 // }
+
+  // size(): number {
+  //   let counter = 0;
+  //   let tracker = this.start;
+  //   while (tracker != undefined) {
+  //     tracker = tracker.next;
+  //     counter++;
+  //   }
+  //   return counter;
+  // }
