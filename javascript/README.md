@@ -21,6 +21,3 @@
 - [sort-and-filter-movies](./code-challenges/sort-and-filter-movies/README28.md)
 - [tree-intersection](./code-challenges/tree-intersection/src/README32.md)
 - [hashtables](./code-challenges/hash-tables/README30.md)
-- [repeated-word](./code-challenges/hashmap-repeated-word/README31.md)
-- [left-join](./code-challenges/hashmap-left-join/README33.md)
-- [left-join](./code-challenges/hashmap-left-join/README33.md)
