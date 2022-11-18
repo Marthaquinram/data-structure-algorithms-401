@@ -1,50 +1,33 @@
+const Edge = require('./edge');
+
 
 class Graph {
-  value;
   constructor() {
-    // this.value = {};
+    this.adjacencyList = new Map();
   }
-  addNode(value) {
-    // this.value[value] = [];
-  }
-  addEdge() {
 
+  addNode(data) {
+    let arr = [];
+    this.adjacencyList.set(data.value, arr);
   }
-  getNode() {
-
+  addEdge(start, end, weight = 0) {
+    let e = new Edge(end, weight);
+    let neighbors = this.adjacencyList.get(start.value);
+    neighbors.push(e);
   }
-  getNeighbors() {
-
+  getNodes() {
+    const nodes = [];
+    for (const key of this.adjacencyList.keys()) {
+      nodes.push(key);
+    }
+    return nodes;
+  }
+  getNeighbors(nodey) {
+    return this.adjacencyList.get(nodey.value);
   }
   size() {
-
+    // hashmap.size() returns the # of elements in the hashmap
+    return this.adjacencyList.size;
   }
-
 }
-
-
-// function breadthFirst<NV, EV>(graph: Graph<NV, EV>, start: Node<NV, EV>): NV[] {
-//   const q = [start];
-//   const visited = new Set < Node < NV, EV>> ();
-//   const traversal: NV[] = [];
-//   let next = q.shift();
-//   while (next !== undefined) {
-//     if (!visited.has(next)) {
-//       visited.add(next);
-//       traversal.push(next.value);
-//       q.push(...graph.neighbors(next));
-//     }
-//     next = q.shift();
-//   }
-//   return traversal;
-// }
-
-  // size(): number {
-  //   let counter = 0;
-  //   let tracker = this.start;
-  //   while (tracker != undefined) {
-  //     tracker = tracker.next;
-  //     counter++;
-  //   }
-  //   return counter;
-  // }
+module.exports = Graph;

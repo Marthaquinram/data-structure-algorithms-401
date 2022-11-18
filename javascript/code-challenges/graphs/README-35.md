@@ -38,10 +38,12 @@ Implement your own Graph. The graph should be represented as an adjacency list, 
 
 ## Approach & Efficiency
 
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+worked with Tony in a replit to break down every step of the problem.
 
 ## Whiteboard
 
-![graphs]()
+![graphs](CC35.png)
 
 ### Collaborators
+
+- Tony R.
