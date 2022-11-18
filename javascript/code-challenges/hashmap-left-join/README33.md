@@ -16,7 +16,7 @@
 
 ## Whiteboard
 
-![CC33]()
+![CC33](CC33.png)
 
 ## Starting up
 
@@ -24,4 +24,4 @@
 
 ## Collaborators
 
-- Collaborator:
+- Collaborator: Tony R.
