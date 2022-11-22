@@ -24,4 +24,8 @@ Input:
 Output: Pandora, Arendelle, Metroville, Monstroplolis, Narnia, Naboo.
 
 - Whiteboard
-  ![graph-whiteboard]()
+  ![graph-whiteboard](CC36.png)
+
+### Collaborators
+
+- Tony R.
